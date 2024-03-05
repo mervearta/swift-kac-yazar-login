@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEEA2CC92B96266E00FC7938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA2CC82B96266E00FC7938 /* AppDelegate.swift */; };
+		DEEA2CCB2B96266E00FC7938 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA2CCA2B96266E00FC7938 /* SceneDelegate.swift */; };
+		DEEA2CCD2B96266E00FC7938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA2CCC2B96266E00FC7938 /* ViewController.swift */; };
+		DEEA2CD02B96266E00FC7938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEA2CCE2B96266E00FC7938 /* Main.storyboard */; };
+		DEEA2CD22B96266F00FC7938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEA2CD12B96266F00FC7938 /* Assets.xcassets */; };
+		DEEA2CD52B96266F00FC7938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEA2CD32B96266F00FC7938 /* LaunchScreen.storyboard */; };
+		DEEA2CDD2B9700DA00FC7938 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA2CDC2B9700DA00FC7938 /* LoginPageViewController.swift */; };
+		DEEA2CDF2B9700EB00FC7938 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA2CDE2B9700EB00FC7938 /* SignUpViewController.swift */; };
+		DEEA2CE12B97071100FC7938 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEA2CE02B97071100FC7938 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEEA2CC52B96266E00FC7938 /* LoginTasarimOdev3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTasarimOdev3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEA2CC82B96266E00FC7938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEEA2CCA2B96266E00FC7938 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEEA2CCC2B96266E00FC7938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEEA2CCF2B96266E00FC7938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEEA2CD12B96266F00FC7938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEEA2CD42B96266F00FC7938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEEA2CD62B96266F00FC7938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEA2CDC2B9700DA00FC7938 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		DEEA2CDE2B9700EB00FC7938 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DEEA2CE02B97071100FC7938 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEEA2CC22B96266E00FC7938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEEA2CBC2B96266E00FC7938 = {
+			isa = PBXGroup;
+			children = (
+				DEEA2CC72B96266E00FC7938 /* LoginTasarimOdev3 */,
+				DEEA2CC62B96266E00FC7938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEA2CC62B96266E00FC7938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEA2CC52B96266E00FC7938 /* LoginTasarimOdev3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEEA2CC72B96266E00FC7938 /* LoginTasarimOdev3 */ = {
+			isa = PBXGroup;
+			children = (
+				DEEA2CC82B96266E00FC7938 /* AppDelegate.swift */,
+				DEEA2CCA2B96266E00FC7938 /* SceneDelegate.swift */,
+				DEEA2CCC2B96266E00FC7938 /* ViewController.swift */,
+				DEEA2CDE2B9700EB00FC7938 /* SignUpViewController.swift */,
+				DEEA2CE02B97071100FC7938 /* HomeViewController.swift */,
+				DEEA2CDC2B9700DA00FC7938 /* LoginPageViewController.swift */,
+				DEEA2CCE2B96266E00FC7938 /* Main.storyboard */,
+				DEEA2CD12B96266F00FC7938 /* Assets.xcassets */,
+				DEEA2CD32B96266F00FC7938 /* LaunchScreen.storyboard */,
+				DEEA2CD62B96266F00FC7938 /* Info.plist */,
+			);
+			path = LoginTasarimOdev3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEEA2CC42B96266E00FC7938 /* LoginTasarimOdev3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEA2CD92B96266F00FC7938 /* Build configuration list for PBXNativeTarget "LoginTasarimOdev3" */;
+			buildPhases = (
+				DEEA2CC12B96266E00FC7938 /* Sources */,
+				DEEA2CC22B96266E00FC7938 /* Frameworks */,
+				DEEA2CC32B96266E00FC7938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginTasarimOdev3;
+			productName = LoginTasarimOdev3;
+			productReference = DEEA2CC52B96266E00FC7938 /* LoginTasarimOdev3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEA2CBD2B96266E00FC7938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DEEA2CC42B96266E00FC7938 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DEEA2CC02B96266E00FC7938 /* Build configuration list for PBXProject "LoginTasarimOdev3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEEA2CBC2B96266E00FC7938;
+			productRefGroup = DEEA2CC62B96266E00FC7938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEA2CC42B96266E00FC7938 /* LoginTasarimOdev3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEA2CC32B96266E00FC7938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEA2CD52B96266F00FC7938 /* LaunchScreen.storyboard in Resources */,
+				DEEA2CD22B96266F00FC7938 /* Assets.xcassets in Resources */,
+				DEEA2CD02B96266E00FC7938 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEEA2CC12B96266E00FC7938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEA2CCD2B96266E00FC7938 /* ViewController.swift in Sources */,
+				DEEA2CDD2B9700DA00FC7938 /* LoginPageViewController.swift in Sources */,
+				DEEA2CC92B96266E00FC7938 /* AppDelegate.swift in Sources */,
+				DEEA2CCB2B96266E00FC7938 /* SceneDelegate.swift in Sources */,
+				DEEA2CDF2B9700EB00FC7938 /* SignUpViewController.swift in Sources */,
+				DEEA2CE12B97071100FC7938 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEEA2CCE2B96266E00FC7938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEA2CCF2B96266E00FC7938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEEA2CD32B96266F00FC7938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEA2CD42B96266F00FC7938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEEA2CD72B96266F00FC7938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEEA2CD82B96266F00FC7938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEEA2CDA2B96266F00FC7938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZ9VF6NW32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginTasarimOdev3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mervearta.LoginTasarimOdev3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEEA2CDB2B96266F00FC7938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZ9VF6NW32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginTasarimOdev3/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mervearta.LoginTasarimOdev3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEEA2CC02B96266E00FC7938 /* Build configuration list for PBXProject "LoginTasarimOdev3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEA2CD72B96266F00FC7938 /* Debug */,
+				DEEA2CD82B96266F00FC7938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEA2CD92B96266F00FC7938 /* Build configuration list for PBXNativeTarget "LoginTasarimOdev3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEA2CDA2B96266F00FC7938 /* Debug */,
+				DEEA2CDB2B96266F00FC7938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEA2CBD2B96266E00FC7938 /* Project object */;
+}
